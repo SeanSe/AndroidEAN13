@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <EditText android:id ="@+id/edittext1"
+        android:text="124958761310"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:maxLength="12"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        />
+
+    <TextView
+        android:id="@+id/barcode"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="130sp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="5sp"
+        android:text="Hello Android from NetBeans"/>
+</LinearLayout>
